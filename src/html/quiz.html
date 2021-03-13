@@ -1,0 +1,141 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/custom-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home</title>
+</head>
+<body>
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light main">
+    <!--    <a class="navbar-brand" href="#"></a>-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse center" id="navigation">
+        <ul class="navbar-nav mr-auto mx-auto">
+            <li class="nav-item active">
+                <a class="nav-link nav-space" href="http://localhost:63342/uxfyp/src/html/index.html?#">Home <span
+                        class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active nav-space">
+                <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item active nav-space">
+                <a class="nav-link" href="#"><b>David2me</b></a>
+            </li>
+            <li class="nav-item active nav-space">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
+
+
+<div class="jumbotron" style="height: 500px; padding-top: 120px; background-color: #f5cb5c">
+    <div class="container offset-2">
+        <div class="quiz-card">
+            <div class="container">
+                <div id="question-container" class="hide">
+                    <div id="question">Question</div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <button class="quiz-btn">Answer 1</button>
+                        <button class="quiz-btn">Answer 2</button>
+                        <button class="quiz-btn">Answer 3</button>
+                        <button class="quiz-btn">Answer 4</button>
+                    </div>
+                </div>
+                <div class="controls">
+                    <button id="start-btn" class="start-btn btn btn-outline-dark">Start</button>
+                    <button id="next-btn" class="next-btn btn btn-outline-dark hide">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container offset-2">
+    <div class="quiz-example pt-5">
+        <h5>Enjoy the quick and fun quiz. The green are the right answers and the red are the wrong ones.
+            You can take the quiz as many times as you want by hitting the restart button at the end. Check
+            back at the end of the month where we will have new questions.</h5>
+        <br>
+        <h5>If you are looking for more fun quiz's to do, then check out this easy at first UI quiz but gets almost
+            super difficult! This brings you to a new page but it is super fun if you are competitive.</h5>
+        <br>
+        <img src="../images/cantUnsee.PNG" alt="Can't Unsee quiz"/>
+        <br>
+        <Br>
+        <a id="btn-center" class="btn btn-dark btn-lg btn-block" href="https://cantunsee.space/" target="_blank">Take
+            the quiz</a>
+    </div>
+</div>
+
+
+
+<footer class="container-fluid py-5 footer-bgc">
+    <div class="row">
+        <div class="col-12 col-md pt-5">
+            <p>All rights reserved David Twomey</p>
+            <small class="d-block mb-3 text-muted">&copy; 1997-2021</small>
+        </div>
+        <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Usability testing guidelines page</a></li>
+                <li><a class="text-muted" href="#">UX/UX best practises and guidelines</a></li>
+                <li><a class="text-muted" href="#">Fun Quiz made with JavaScript</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Why we started</a></li>
+                <li><a class="text-muted" href="#">Who are we</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md">
+            <h5>Contact</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Contact Us</a></li>
+                <li><a class="text-muted" href="#">Privacy</a></li>
+                <li><a class="text-muted" href="#">Terms</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<!-- optional javascript here -->
+<script type="text/javascript" src="../javascript/basicjs.js"></script>
+<script type="text/javascript" src="../javascript/script.js"></script>
+
+<!-- We have jquery first, then popper and then Bootstrap js -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
